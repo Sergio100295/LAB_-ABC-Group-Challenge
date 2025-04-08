@@ -1,5 +1,29 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+
 #abc{
+    
     color: red;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: antiquewhite;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.display-1{
+    
+    font-size: 120px;
+    color: rgb(0, 187, 255);
+}
+h3{
+    font-size: 30px;
 }
 
 img{
