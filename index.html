@@ -5,30 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
     <title>Document</title>
+    <script src="./script.js"></script>
 </head>
 <body>
     <header>
-        <h1 id="abc" onclick="changeColors()">Abededario</h1>
+        <h1 id="abc">ABECEDARIO</h1>
     </header>
 
+    <nav id="menu-abecedario">
+        <div class="menu-contenido">
+            <a href="#A">A</a>
+            <a href="#B">B</a>
+            <a href="#C">C</a>
+            <a href="#D">D</a>
+            <a href="#E">E</a>
+            <a href="#F">F</a>
+            <a href="#G">G</a>
+            <a href="#H">H</a>
+            <a href="#I">I</a>
+            <a href="#J">J</a>
+            <a href="#K">K</a>
+            <a href="#L">L</a>
+            <a href="#M">M</a>
+            <a href="#N">N</a>
+            <a href="#Ñ">Ñ</a>
+            <a href="#O">O</a>
+            <a href="#P">P</a>
+            <a href="#Q">Q</a>
+            <a href="#R">R</a>
+            <a href="#S">S</a>
+            <a href="#T">T</a>
+            <a href="#U">U</a>
+            <a href="#V">V</a>
+            <a href="#W">W</a>
+            <a href="#X">X</a>
+            <a href="#Y">Y</a>
+            <a href="#Z">Z</a>
+            <!-- Continúa con el resto del abecedario -->
+        </div>
+      </nav>
+
    <!-- Letras Diana A, B, C, D, E, F, G -->
-    <div class="row">
+    <div class="row" id="A">
         <div class="col-4">
             <h1 class="display-1">A</h1>
-                <h3  id="avion" onclick="changeColors()">For Appa</h3> 
+                <h3 onclick="changeColors()">For Appa</h3> 
         </div>
             <div class="col-8"> 
                 <img src="./Imagenes/imagenesABC/avion.jpg" 
-class="img-thumbnail"> 
+class="img-thumbnail" id="avion"> 
             </div> 
         </div> 
         <hr> 
         <hr> 
 
-        <div class="row"> 
+        <div class="row" id="B"> 
             <div class="col-4"> 
                 <h1 class="display-1">B</h1> 
-                <h3 id="barco" onclick="changeColors()">Para Barco</h3> 
+                <h3 onclick="changeColors()">Para Barco</h3> 
             </div> 
             <div class="col-8"> 
                 <img src="./Imagenes/imagenesABC/barco.jpg" 
@@ -38,7 +72,7 @@ class="img-thumbnail">
         <hr> 
         <hr> 
 
-        <div class="row"> 
+        <div class="row" id="C"> 
             <div class="col-4"> 
                 <h1 class="display-1">C</h1> 
                 <h3>Para Carro</h3> 
@@ -52,7 +86,7 @@ class="img-thumbnail">
         <hr> 
 
 
-        <div class="row"> 
+        <div class="row" id="D"> 
             <div class="col-4"> 
                 <h1 class="display-1">D</h1> 
                 <h3>Para Delfin</h3> 
@@ -65,7 +99,7 @@ class="img-thumbnail">
         <hr> 
         <hr> 
 
-        <div class="row"> 
+        <div class="row" id="E"> 
             <div class="col-4"> 
                 <h1 class="display-1">E</h1> 
                 <h3>Para Elefante</h3> 
@@ -78,7 +112,7 @@ class="img-thumbnail">
         <hr> 
         <hr> 
 
-        <div class="row"> 
+        <div class="row" id="F"> 
             <div class="col-4"> 
                 <h1 class="display-1">F</h1> 
                 <h3>Para Flores</h3> 
@@ -91,7 +125,7 @@ class="img-thumbnail">
         <hr> 
         <hr> 
 
-        <div class="row"> 
+        <div class="row" id="G"> 
             <div class="col-4"> 
                 <h1 class="display-1">G</h1> 
                 <h3>Para Gato</h3> 
@@ -104,7 +138,7 @@ class="img-thumbnail">
         <hr> 
         <hr>  
 <!-- Letras Andrea Ñ, O, P, Q, R, S, T -->
-<div class="row"> 
+<div class="row" id="H"> 
     <div class="col-4"> 
         <h1 class="display-1">H</h1> 
         <h3>De hormiga</h3> 
@@ -116,7 +150,7 @@ class="img-thumbnail">
 <hr>
 <hr>
 
-<div class="row"> 
+<div class="row" id="I"> 
     <div class="col-4"> 
         <h1 class="display-1">I</h1> 
         <h3>De iglesia</h3> 
@@ -128,7 +162,7 @@ class="img-thumbnail">
 <hr> 
 <hr> 
 
-<div class="row"> 
+<div class="row" id="J"> 
     <div class="col-4"> 
         <h1 class="display-1">J</h1> 
         <h3>Para jirafa</h3> 
@@ -141,7 +175,7 @@ class="img-thumbnail">
 <hr> 
 <hr> 
 
-<div class="row"> 
+<div class="row" id="K"> 
     <div class="col-4"> 
         <h1 class="display-1">K</h1> 
         <h3>Para kiwi</h3> 
@@ -154,7 +188,7 @@ class="img-thumbnail">
 <hr> 
 <hr> 
 
-<div class="row"> 
+<div class="row" id="L"> 
     <div class="col-4"> 
         <h1 class="display-1">L</h1> 
         <h3>Para león</h3> 
@@ -167,7 +201,7 @@ class="img-thumbnail">
 <hr>
 <hr> 
 
-<div class="row"> 
+<div class="row" id="M"> 
     <div class="col-4"> 
         <h1 class="display-1">M</h1> 
         <h3>Para manzana</h3> 
@@ -180,7 +214,7 @@ class="img-thumbnail">
 <hr>
 <hr> 
 
-<div class="row"> 
+<div class="row" id="N"> 
     <div class="col-4"> 
         <h1 class="display-1">N</h1> 
         <h3>Para nube</h3> 
@@ -193,7 +227,7 @@ class="img-thumbnail">
 <hr>
 <hr> 
 <!-- Letras Estefania Ñ, O, P, Q, R, S, T -->
-<div class="row"> 
+<div class="row" id="Ñ"> 
     <div class="col-4"> 
         <h1 class="display-1">Ñ</h1> 
         <h3>Para ñandu</h3> 
@@ -206,7 +240,7 @@ class="img-thumbnail">
 <hr>
 <hr> 
 
-<div class="row"> 
+<div class="row" id="O"> 
     <div class="col-4"> 
         <h1 class="display-1">O</h1> 
         <h3>De Oso</h3> 
@@ -218,7 +252,7 @@ class="img-thumbnail">
 <hr>
 <hr>
 
-<div class="row"> 
+<div class="row" id="P"> 
     <div class="col-4"> 
         <h1 class="display-1">P</h1> 
         <h3>De Pajaro</h3> 
@@ -230,7 +264,7 @@ class="img-thumbnail">
 <hr> 
 <hr> 
 
-<div class="row"> 
+<div class="row" id="Q"> 
     <div class="col-4"> 
         <h1 class="display-1">Q</h1> 
         <h3>Para queso</h3> 
@@ -243,7 +277,7 @@ class="img-thumbnail">
 <hr> 
 <hr> 
 
-<div class="row"> 
+<div class="row" id="R"> 
     <div class="col-4"> 
         <h1 class="display-1">R</h1> 
         <h3>Para ratón</h3> 
@@ -256,7 +290,7 @@ class="img-thumbnail">
 <hr> 
 <hr> 
 
-<div class="row"> 
+<div class="row" id="S"> 
     <div class="col-4"> 
         <h1 class="display-1">S</h1> 
         <h3>Para sapo</h3> 
@@ -269,7 +303,7 @@ class="img-thumbnail">
 <hr>
 <hr> 
 
-<div class="row"> 
+<div class="row" id="T"> 
     <div class="col-4"> 
         <h1 class="display-1">T</h1> 
         <h3>Para tomate</h3> 
@@ -281,7 +315,81 @@ class="img-thumbnail">
 </div> 
 <hr>
 <hr> 
+   <!-- Letras Sergio U, V, W, X, Y, Z -->
+   <div class="row" id="U">
+    <div class="col-4">
+        <h1 class="display-1">U</h1>
+            <h3>Para Uva</h3> 
+    </div>
+        <div class="col-8"> 
+            <img src="./Imagenes/imagenesABC/uva.png" 
+class="img-thumbnail"> 
+        </div> 
+    </div> 
+    <hr> 
+    <hr> 
 
-<script src="./script.js"></script>
-</body>
-</html>
+    <div class="row" id="V"> 
+        <div class="col-4"> 
+            <h1 class="display-1">V</h1> 
+            <h3>Para Vaca</h3> 
+        </div> 
+        <div class="col-8"> 
+            <img src="./Imagenes/imagenesABC/vaca.png" 
+class="img-thumbnail"> 
+        </div> 
+    </div> 
+    <hr> 
+    <hr> 
+
+    <div class="row" id="W"> 
+        <div class="col-4"> 
+            <h1 class="display-1">W</h1> 
+            <h3>Para Waffle</h3> 
+        </div> 
+        <div class="col-8"> 
+            <img src="./Imagenes/imagenesABC/waffle.png"> 
+        </div> 
+    </div> 
+    <hr> 
+    <hr> 
+
+
+    <div class="row" id="X"> 
+        <div class="col-4"> 
+            <h1 class="display-1">X</h1> 
+            <h3>Para Xilofono</h3> 
+        </div> 
+        <div class="col-8"> 
+            <img src="./Imagenes/imagenesABC/xilofono.png" 
+class="img-thumbnail"> 
+        </div> 
+    </div> 
+    <hr> 
+    <hr> 
+
+    <div class="row" id="Y"> 
+        <div class="col-4"> 
+            <h1 class="display-1">Y</h1> 
+            <h3>Para Yoyo</h3> 
+        </div> 
+        <div class="col-8"> 
+            <img src="./Imagenes/imagenesABC/yoyo.png" 
+class="img-thumbnail"> 
+        </div> 
+    </div> 
+    <hr> 
+    <hr> 
+
+    <div class="row" id="Z"> 
+        <div class="col-4"> 
+            <h1 class="display-1">Z</h1> 
+            <h3>Para Zapato</h3> 
+        </div> 
+        <div class="col-8"> 
+            <img src="./Imagenes/imagenesABC/zapato.png" 
+class="img-thumbnail"> 
+        </div> 
+    </div> 
+    <hr> 
+    <hr> 

@@ -1,33 +1,79 @@
-header{
+header {
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
 }
 
-#abc{
-    
+#abc {
     color: red;
 }
 
-body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: antiquewhite;
-}
-.row{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.display-1{
-    
-    font-size: 120px;
-    color: rgb(0, 187, 255);
-}
-h3{
-    font-size: 30px;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fce4bc;
+  margin: 0;
+  padding: 0;
 }
 
-img{
-   
-    width: 400px;
-    height:400px;
+/* Contenedor por letra */
+section {
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 600px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente los elementos hijos */
 }
+
+/* Letra */
+h2 {
+  font-size: 2em;
+  margin-bottom: 5px;
+  color: #0077cc;
+  text-align: center;
+}
+
+/* Descripción */
+p {
+  font-size: 1em;
+  margin: 5px 0 10px;
+  text-align: center;
+}
+
+/* Imagen */
+img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+#menu-abecedario {
+    position: sticky;
+    top: 0;
+    background-color:transparent;
+    padding: 10px 0px;
+    z-index: 1000;
+    border-bottom: 1px solid #ddd;
+  
+    /* CENTRAR EL CONTENIDO */
+    text-align: center;
+  }
+
+  /* Este es el fondo blanco centrado */
+.menu-contenido {
+    display: inline-block;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+    border-radius: 6px;
+  }
+
+
+  
